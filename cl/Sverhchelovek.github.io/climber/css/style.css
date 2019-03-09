@@ -1,0 +1,131 @@
+body {
+	color: #fff;
+	font-family: sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+	}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.home{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	padding: 45px 65px;
+	background-image: url(../img/bg-home.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.nav{
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    padding: 22px 28px;
+    border-radius: 60px;
+    color: #124b69;
+    text-transform: uppercase;
+	align-items: center;
+	-webkit-box-shadow: 5px 6px 34px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 6px 34px -3px rgba(0,0,0,0.75);
+	box-shadow: 5px 6px 34px -3px rgba(0,0,0,0.75)
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+}
+
+.menu__item{
+	margin-right: 2vw;
+}
+
+.sign-in{
+	display: flex;
+	align-items: center;
+}
+
+.sign-in__item{
+	margin-left: 2vw;
+}
+
+.social-icon{
+	background-color: #124b69;
+    padding: 0.4rem;
+    color: #fff;
+    border-radius: 50%;
+    width: 1.9rem;
+    text-align: center;
+}
+
+.social-icon:not(:nth-child(3)){
+	margin-left: 1.3vw;
+}
+
+.home__title-block{
+	text-align: center;
+	font-family: "Calisto MT";
+	transform: translateY(25%);
+}
+
+.home__title{
+	font-size: 5rem;
+	margin: 5px auto;
+	font-weight: 400;
+}
+
+.home__title-block--mob{
+	display: none;
+}
+
+.home__subtitle{
+	font-size: 1.2rem;
+	margin: 5px auto;
+}
+
+.btn{	
+	display: inline-block;
+	padding: 13px 35px;
+	border-radius: 25px;
+	background-color: #fff;
+	color: #3f6b86;
+	font-family: sans-serif;
+}
+
+.home__btn{
+	margin: 30px auto;
+}
+
+.community{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.community__person{
+	margin-right: 5px;
+}
+
+.community__challenge{
+	display: flex;
+}
+
+.challenge-icon{
+	margin-right: 8px;
+}
+
